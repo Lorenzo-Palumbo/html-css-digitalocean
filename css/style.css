@@ -71,7 +71,7 @@ header .navbar{
 .jumbotron #sign::before,#sign::after{
     content: "";
     display: inline-block;
-    width: 35%;
+    width: 33%;
     height: 1px;
     background-color: lightgray;
     position: relative;
@@ -132,4 +132,70 @@ header .navbar{
 
 .row-three img{
     max-width: 100%
+}
+
+.row-three #slpunk{
+    margin-top: -103px
+}
+
+.row-three #docker{
+
+}
+
+.row-three #gitlab{
+    margin-top: -20px
+}
+
+.row-three #slack{
+    margin-top: -8px
+}
+
+.row-four a{
+    color: #0069ff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 70px;
+    transform: translate(-21%, 7%);
+    display: block;
+}
+
+.white{
+    background-color: white
+}
+
+.row-five h2{
+    text-align: center;
+    color: #031b4e;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 50px
+}
+
+.row-five p{
+    font-size: 20px;
+    text-align: center;
+    color: rgba(3,27,78,.7);
+    padding-bottom: 50px
+}
+
+.row-five ul{
+    list-style: none;
+}
+
+.row-five ul li{
+    padding-bottom: 20px
+}
+
+.row-five ul li a{
+    font-size: 17px;
+    color: rgba(3,27,78,.7);
+}
+
+.row-six img{
+    width: 30px
+}
+
+.row-six h3{
+    margin-top: 9px
 }
