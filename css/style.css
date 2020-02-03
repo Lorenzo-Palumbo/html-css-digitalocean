@@ -1,0 +1,45 @@
+header .navbar{
+    margin: 0;
+    border-style: none;
+}
+
+.navbar-brand img{
+    height: 100%;
+    color: white;
+    background-color: #0069ff;
+    float: left;
+}
+
+.navbar .container-fluid{
+    background-color: #0069ff;
+}
+
+.navbar-default .navbar-toggle{
+    border-style: none;
+}
+
+.navbar-brand span{
+    float: left;
+    color: white;
+    font-weight: 700;
+    padding-left: 8px
+}
+
+.blue{
+    background-color: #0069ff
+}
+
+.row-one{
+    color: white;
+    margin-top: 100px
+}
+
+.row-one h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.row-one h2{
+    opacity: 0.8;
+    font-size: 24px
+}
