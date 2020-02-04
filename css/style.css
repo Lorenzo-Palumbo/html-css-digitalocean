@@ -197,5 +197,63 @@ header .navbar{
 }
 
 .row-six h3{
-    margin-top: 9px
+    margin-top: 9px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.row-six p{
+    color: rgba(3,27,78,.7);
+    font-size: 16px
+}
+
+.row-seven{
+    text-align: center;
+}
+
+.row-seven h1{
+    color: #031b4e;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.row-seven h2{
+    font-size: 20px;
+    color: rgba(3,27,78,.7);
+    padding-bottom: 50px
+}
+
+.row-seven img{
+float: none;
+}
+
+.row-seven h3{
+    color: rgba(3,27,78,.7);
+    font-size: 17px;
+    padding-top: 30px;
+    padding-bottom: 50px
+}
+
+.row-eight h2{
+    color: #031b4e;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.row-eight img{
+    width: 30px;
+    margin-top: 35px
+}
+
+.row-eight p{
+    color: rgba(3,27,78,.7);
+    font-size: 17px
+}
+
+.row-eight a{
+    color: #0069ff;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 20px
 }
