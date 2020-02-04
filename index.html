@@ -13,26 +13,43 @@
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                  <a class="navbar-brand" href="#"><img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMzIiIGhlaWdodD0iMzIiCnZpZXdCb3g9IjAgMCAyMjYgMjI2IgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDIyNnYtMjI2aDIyNnYyMjZ6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgaWQ9Im9yaWdpbmFsLWljb24iIGZpbGw9IiNmZmZmZmYiPjxwYXRoIGQ9Ik0xMTMsMjEuMTg3NWMtNTAuNjMxMDYsMCAtOTEuODEyNSw0MS4xODg1IC05MS44MTI1LDkxLjgxMjVoMzUuMzEyNWMwLC0zMS4yMDIxMiAyNS4yOTc4OCwtNTYuNSA1Ni41LC01Ni41YzMxLjIwMjEyLDAgNTYuNSwyNS4yOTc4OCA1Ni41LDU2LjVjMCwzMS4yMDIxMiAtMjUuMjk3ODgsNTYuNSAtNTYuNSw1Ni41djM1LjMxMjVjNTAuNjMxMDYsMCA5MS44MTI1LC00MS4xODg1IDkxLjgxMjUsLTkxLjgxMjVjMCwtNTAuNjI0IC00MS4xODE0NCwtOTEuODEyNSAtOTEuODEyNSwtOTEuODEyNXpNMTEzLDE2OS41di00Mi4zNzVoLTQyLjM3NXY0Mi4zNzV6TTcwLjYyNSwxNjkuNWgtMjguMjV2MjguMjVoMjguMjV6TTQyLjM3NSwxNjkuNXYtMjEuMTg3NWgtMjEuMTg3NXYyMS4xODc1eiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+"><span>DigitalOcean</span></a>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="https://files.slack.com/files-pri/T91QPE3BP-FTHF2F129/logo.png" alt="digitalocean logo"></a>
                 </div>
-            </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                    <li><a href="#">Products <span class="caret"></span></a></li>
+                    <li><a href="#">Marketplace</a></li>
+                    <li><a href="#">Customers</a></li>
+                    <li><a href="#">Partners</a></li>
+                    <li><a href="#">Community <span class="caret"></span></a></li>
+                    <li><a href="#">Pricing</a></li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                      <button type="submit" class="btn btn-default">Sign Up</button>
+                    </li>
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
         </nav>
     </header>
     <body>
         <section>
             <div class="container-full blue">
                 <div class="container">
-                    <div class="row-one">
+                    <div class="row-one col-sm-7 col-md-7">
                         <h1>Welcome to the developer cloud</h1>
                         <h2>We make it simple to launch in the cloud and scale up as you grow – with an intuitive control panel, predictable pricing, team accounts, and more.</h2>
                     </div>
-                    <div class="jumbotron">
+                    <div class="jumbotron col-sm-5 col-md-5">
                       <h1 class="display-4">Deploy in seconds</h1>
                       <form class="navbar-form navbar-left" role="search">
                           <div class="form-group">
@@ -42,13 +59,6 @@
                           </div>
                       </form>
                       <a class="btn btn-primary btn-lg col-xs-12" href="#" role="button">Create your account</a>
-                      <p id="sign">or sign up with</p>
-                        <button type="button" class="down btn btn-default btn-lg">
-                          <img src="https://lh4.googleusercontent.com/-XnEk6v4rpj8/AAAAAAAAAAI/AAAAAAAAdq4/sy5DpFiLNc8/s120-c/photo.jpg" alt="google logo">Google
-                        </button>
-                        <button type="button" class="down github btn btn-default btn-lg">
-                          <img src="http://icons.iconarchive.com/icons/papirus-team/papirus-apps/512/github-icon.png" alt="github logo"> GitHub
-                        </button>
                         <small>By signing up you agree to the <a href="#">Terms of Service.</a></small>
                     </div>
                 </div>
@@ -61,26 +71,26 @@
                         <h2>INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</h2>
                     </div>
                     <div class="row-three">
-                        <div class=col-xs-6>
-                            <img id="docker" src="https://www.digitalocean.com/assets/media/homepage/logos/docker-bab60eeb.png" alt="docker">
+                        <div class="col-xs-6 col-sm-2 col-md-2">
+                            <img src="https://files.slack.com/files-pri/T91QPE3BP-FTKEA1K63/1.png" alt="docker">
                         </div>
-                        <div class="col-xs-6">
-                            <img id="gitlab" src="https://www.digitalocean.com/assets/media/homepage/logos/gitlab-166e2067.png" alt="gitlab">
+                        <div class="col-xs-6 col-sm-2 col-md-2">
+                            <img src="https://files.slack.com/files-pri/T91QPE3BP-FTHJYJUS1/2.png" alt="gitlab">
                         </div>
-                        <div class="col-xs-6">
-                            <img id="slack" src="https://www.digitalocean.com/assets/media/homepage/logos/slack-e20293da.png" alt="slack logo">
+                        <div class="col-xs-6 col-sm-2 col-md-2">
+                            <img src="https://files.slack.com/files-pri/T91QPE3BP-FT64L28TV/3.png" alt="slack logo">
                         </div>
-                        <div class="col-xs-6">
-                            <img id="hashicorp" src="https://www.digitalocean.com/assets/media/homepage/logos/hashicorp-4431df79.png" alt="hashicorp">
+                        <div class="col-xs-6 col-sm-2 col-md-2">
+                            <img src="https://files.slack.com/files-pri/T91QPE3BP-FT4QL2NKC/4.png" alt="hashicorp">
                         </div>
-                        <div class="col-xs-6">
-                            <img id="wework" src="https://www.digitalocean.com/assets/media/homepage/logos/wework-be6eab32.png" alt="wework">
+                        <div class="col-xs-6 col-sm-2 col-md-2">
+                            <img src="https://files.slack.com/files-pri/T91QPE3BP-FTH502V3N/6.png" alt="splunk">
                         </div>
-                        <div class="col-xs-6">
-                            <img id="slpunk" src="https://www.digitalocean.com/assets/media/homepage/logos/splunk-06b17d75.png" alt="splunk">
+                        <div class="col-xs-6 col-sm-2 col-md-2">
+                            <img src="https://files.slack.com/files-pri/T91QPE3BP-FT64L28UB/5.png" alt="wework">
                         </div>
                     </div>
-                    <div class="row-four">
+                    <div class="row-four col-xs-12 col-sm-12 col-md-12">
                         <a href="#">See business solutions ></a>
                     </div>
                 </div>
@@ -92,7 +102,7 @@
                     <div class="row-five">
                         <h2>Deploy and scale seamlessly</h2>
                         <p>Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
-                        <ul>
+                        <ul class="col-sm-4 col-md-4">
                             <li><a href="#">Deploy</a></li>
                             <li><a href="#">Scale</a></li>
                             <li><a href="#">Store</a></li>
@@ -101,22 +111,22 @@
                         </ul>
                     </div>
                     <div class="row-six">
-                        <div class="col-xs-6">
+                        <div class="col-xs-6  col-sm-4 col-md-4">
                             <img src="https://image.flaticon.com/icons/png/512/822/822783.png" alt="timone">
                             <h3>Kubernetes in minutes</h3>
                             <p>Spin up a managed Kubernetes cluster in just a few clicks. Simply specify the size and location of your worker nodes.</p>
                         </div>
-                        <div class="col-xs-6">
+                        <div class="col-xs-6  col-sm-4 col-md-4">
                             <img src="https://static.vecteezy.com/system/resources/previews/000/577/799/original/water-drop-vector-icon.jpg" alt="">
                             <h3>Flexible compute types</h3>
                             <p>With Standard, General Purpose, CPU-Optimized or Memory-Optimized Droplets, you can choose the right infrastructure for your workload.</p>
                         </div>
-                        <div class="col-xs-6">
+                        <div class="col-xs-6 col-sm-4 col-md-4">
                             <img src="http://graphichive.net/uploaded/fordesigner/1313327402.jpg" alt="">
                             <h3>1-Click App Marketplace</h3>
                             <p>Quickly deploy projects using one of our preconfigured 1-Click Apps, like LAMP, Docker, and WordPress.</p>
                         </div>
-                        <div class="col-xs-6">
+                        <div class="col-xs-6 col-sm-4 col-md-4">
                             <img src="https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/2126941/700/700/m1/fpnw/wm0/world-globe-simple-blue-icon-isolated-on-white-14.44.43-.jpg?1484380299&s=00273bdba6dd3f8446dcf09eec619032" alt="world">
                             <h3>Global availability</h3>
                             <p>Deploy to any of our data center locations – New York, SF, London, Amsterdam, Bangalore, and more.</p>
@@ -142,29 +152,80 @@
                 <div class="container">
                     <div class="row-eight">
                         <h2>Built for business</h2>
-                        <div class="col-xs-6">
+                        <div class="col-xs-12 col-sm-6 col-md-3">
                             <img src="http://www.windows-icons.com/wp-content/uploads/windowws-defender-blue-logo-286x300.png" alt="timone">
                             <h3>Reliable platform</h3>
                             <p>More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all services.</p>
                             <a href="#">Security ></a>
                         </div>
-                        <div class="col-xs-6">
+                        <div class="col-xs-12 col-sm-6 col-md-3">
                             <img src="https://cdn4.iconfinder.com/data/icons/ios7-active-basic/512/todo_list_text_document-512.png" alt="">
                             <h3>Predictable pricing</h3>
                             <p>Leave complex pricing structures behind. Always know what you’ll pay per month with a flat, industry-leading pricing structure.</p>
                             <a href="#">Pricing ></a>
                         </div>
-                        <div class="col-xs-6">
+                        <div class="col-xs-12 col-sm-6 col-md-3">
                             <img src="http://www.newdesignfile.com/postpic/2009/03/customer-service-headset-icon_86529.png" alt="">
                             <h3>World-class service</h3>
                             <p>Free around-the-clock technical support for all customers, with additional benefits for premium support subscribers. You’ll feel the love.</p>
                             <a href="#">Support ></a>
                         </div>
-                        <div class="col-xs-6">
+                        <div class="pad col-xs-12 col-sm-6 col-md-3">
                             <img src="https://www.freeiconspng.com/uploads/blue-key-icon-27.jpg" alt="world">
                             <h3>Security and compliance</h3>
                             <p>Keep your data protected. Our platform is certified on multiple international standards, including SOC 1 Type II, SOC 2 Type II, ISO/IEC 27001, and PCI-DSS.</p>
                             <a href="#">Compliance ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-full world">
+                <div class="container">
+                    <div class="row-nine">
+                        <h2>Service your customers around the world from 12 data centers.</h2>
+                    </div>
+                    <div class="ms--up col-xs-12 col-sm-6 col-lg-6">
+                        <div class="row-ten col-xs-2">
+                            AMS2 AMS3 BLR1 FRA1 LON1 NYC1
+                        </div>
+                        <div class="row-eleven col-xs-6">
+                            <span>Amsterdam, Netherlands</span>
+                        	<span>Amsterdam, Netherlands</span>
+                        	<span>Bangalore, India</span>
+                        	<span>Frankfurt, Germany</span>
+                        	<span>London, UK</span>
+                        	<span>New York, USA</span>
+                        </div>
+                        <div class="row-twelve col-xs-4">
+                            <a href="#">Test speed ></a>
+                            <a href="#">Test speed ></a>
+                            <a href="#">Test speed ></a>
+                            <a href="#">Test speed ></a>
+                            <a href="#">Test speed ></a>
+                            <a href="#">Test speed ></a>
+                        </div>
+                    </div>
+                    <div class="ms--down col-xs-12 col-sm-6 col-lg-6">
+                        <div class="row-ten col-xs-2">
+                            NYC2 NYC3 SFO1 SFO2 SGP1 TOR1
+                        </div>
+                        <div class="row-eleven col-xs-6">
+                            <span>New York, USA</span>
+                        	<span>New York, USA</span>
+                        	<span>San Francisco, USA</span>
+                        	<span>San Francisco, USA</span>
+                        	<span>Singapore</span>
+                        	<span>Toronto, Canada</span>
+                        </div>
+                        <div class="row-twelve col-xs-4">
+                            <a href="#">Test speed ></a>
+                            <a href="#">Test speed ></a>
+                            <a href="#">Test speed ></a>
+                            <a href="#">Test speed ></a>
+                            <a href="#">Test speed ></a>
+                            <a href="#">Test speed ></a>
                         </div>
                     </div>
                 </div>
