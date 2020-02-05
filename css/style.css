@@ -58,7 +58,9 @@ header .navbar-default .navbar-nav>li>a{
 }
 
 .jumbotron .navbar-form{
-    padding: 0
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0
 }
 
 .jumbotron .btn{
@@ -98,10 +100,11 @@ header .navbar-default .navbar-nav>li>a{
 .row-four a{
     color: #0069ff;
     text-align: center;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 17px;
     margin-bottom: 70px;
     display: block;
+    margin-top: 15px
 }
 
 .white{
@@ -160,6 +163,7 @@ header .navbar-default .navbar-nav>li>a{
     color: #031b4e;
     font-size: 36px;
     font-weight: bold;
+    margin-top: 50px
 }
 
 .row-seven h2{
@@ -184,6 +188,7 @@ float: none;
     font-size: 36px;
     font-weight: bold;
     text-align: center;
+    margin-top: 50px
 }
 
 .row-eight img{
@@ -209,6 +214,10 @@ float: none;
     padding-bottom: 120px;
 }
 
+.row-eight .numb-3{
+    float: right;
+}
+
 .row-eight .pad{
     padding-bottom: 120px
 }
@@ -224,11 +233,13 @@ float: none;
     font-size: 36px;
     font-weight: bold;
     text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px
 }
 .row-ten span{
     color: white;
     font-size: 11px;
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid #d3d3d38a;
     display: block;
 }
 
@@ -251,7 +262,7 @@ float: none;
 .container .row-twelve a{
     display: block;
     color: #00d7d2;
-    border-bottom: 1px solid lightgray
+    border-bottom: 1px solid #d3d3d38a
 }
 
 .container .row-twelve{
