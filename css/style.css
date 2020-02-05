@@ -269,6 +269,10 @@ float: none;
     padding-bottom: 100px
 }
 
+.row-seven .jumbotron{
+    margin-bottom: 150px
+}
+
 .row-seven .rockerbox{
     width: 40%;
     padding-bottom: 40px
@@ -291,5 +295,60 @@ float: none;
 
 .row-seven .jumbotron a{
     color: #0069ff;
-    font-size: 17px
+    font-size: 17px;
+}
+
+.row-thirteen{
+    text-align: center;
+}
+
+.row-thirteen h1{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 80px;
+    padding-bottom: 30px
+}
+
+.row-thirteen button{
+    color: #0069ff;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px 30px;
+    margin-bottom: 80px
+}
+
+.darkblue{
+    background-color: #010e28;
+    color: hsla(0,0%,100%,.5);
+    font-size: 14px;
+    padding-bottom: 96px;
+    padding-top: 96px;
+}
+
+.row-fourteen ul li{
+    color: white;
+    list-style: none;
+}
+
+.row-fourteen ul li a{
+    color: hsla(0,0%,100%,.5)
+}
+
+.row-fifteen{
+    margin-top: 50px
+}
+
+.row-fifteen img{
+    background-color: #010e28;
+    width: 8%;
+    padding-bottom: 5px
+}
+
+.row-fifteen h6{
+    margin-bottom: 0
+}
+
+.row-fifteen small{
+    color: hsla(0,0%,50%,.5);
 }
